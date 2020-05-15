@@ -1,6 +1,6 @@
-// .App {
-// 	justify-content: center;
-// }
+.App {
+	overflow-wrap: break-word;
+}
 
 header {
 	background-image: url("../images/Image1.jpg");
@@ -80,6 +80,7 @@ p {
 #story {
 	background-color: whitesmoke;
 }
+
 // #ceremony {
 // 	background-image: url("../images/Image2.jpg");
 // 	background-size: cover;
@@ -134,19 +135,25 @@ p {
 	}
 }
 
-@media only screen and (min-width: 992px) {
-	#story,
-	#ceremony,
-	#accomodations,
-	#registry {
-		padding-left: 300px;
-		padding-right: 300px;
-	}
+.image:hover {
+	cursor: pointer;
+	// filter: blur(1px);
+	transform: scale(1.03, 1.03) rotate(0.5deg);
 }
 
+// @media only screen and (min-width: 992px) {
+// 	#story,
+// 	#ceremony,
+// 	#accomodations,
+// 	#registry {
+// 		padding-left: 300px;
+// 		padding-right: 300px;
+// 	}
+// }
+
 @media only screen and (max-width: 610px) {
-	#ceremony {
-		background-position: calc(100% - 0px);
-		background-repeat: no-repeat;
-	}
+	// #ceremony {
+	// 	background-position: calc(100% - 0px);
+	// 	background-repeat: no-repeat;
+	// }
 }
