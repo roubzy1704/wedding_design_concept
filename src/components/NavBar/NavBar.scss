@@ -1,0 +1,76 @@
+$navbar-background-color: #dae1e7;
+$blueColor: #40bad5;
+
+/* NAV BAR */
+//center Nav Bar links
+.navbar-nav {
+	margin: 0 auto;
+}
+
+.navbar {
+	background-color: transparent;
+	// padding: 6px 60px; //*might hvae to put the 60px padding on the whole body
+}
+
+.navBarChangeOnScroll {
+	background-color: rgba($color: $navbar-background-color, $alpha: 1);
+}
+
+/* add space between nav bar links, and set font family*/
+.navbar-nav li {
+	// margin: 0px 25px;
+	white-space: nowrap; //prevents OUR STORY nav link from wrapping on smaller screen sizes
+	padding: 0px 25px;
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand {
+	font-size: 25px;
+	font-family: "Cinzel Decorative", cursive;
+	color: #00a8cc !important;
+}
+
+.navbar-nav a:hover {
+	background-color: #00bcd4;
+	color: white !important;
+}
+
+.RSVPButton {
+	background-color: #2ba2b6;
+	letter-spacing: 1px;
+	font-size: 15px;
+	color: white;
+	padding: 8px 15px;
+}
+
+//media query for smaller screen size
+//changes nav brand color and background
+@media only screen and (max-width: 991px) {
+	.navbar {
+		background-color: $blueColor;
+	}
+	.navbar-brand {
+		color: white !important;
+		// padding-left: 0px;
+	}
+	.RSVPButton {
+		background-color: white;
+		letter-spacing: 1px;
+		font-size: 15px;
+		color: #2ba2b6;
+	}
+	.navbar-toggler-icon {
+		padding-left: 0px;
+	}
+}
+
+//media query for more responsive Nav Bar
+@media only screen and (max-width: 1263px) {
+	.navbar-nav li {
+		padding: 0px 5px;
+	}
+	.navbar {
+		padding: 6px 10px;
+	}
+}
