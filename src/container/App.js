@@ -101,7 +101,7 @@ function App() {
 							<p>Sugarland, TX</p>
 							<p>(281) 555 - 0123</p>
 						</div>
-						<button type="button" class="btn btn-outline-info">
+						<button type="button" className="btn btn-outline-info">
 							BOOK ONLINE
 						</button>
 					</div>
@@ -114,68 +114,68 @@ function App() {
 						</p>
 						<div className="container">
 							<div
-								class="row"
+								className="row"
 								id="gallery"
 								data-toggle="modal"
 								data-target="#exampleModal"
 							>
-								<div class="col-sm-12 col-md-6 col-lg-6">
+								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
-										class="image rounded-lg border border-light w-100 mh-75 m-3"
+										className="image rounded-lg border border-light w-100 mh-75 m-3"
 										src={Image3}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="0"
 									/>
 								</div>
-								<div class="col-sm-12 col-md-6 col-lg-6">
+								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
-										class="image rounded-lg border border-light w-100 mh-75 m-3"
+										className="image rounded-lg border border-light w-100 mh-75 m-3"
 										src={Image4}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="1"
 									/>
 								</div>
-								<div class="col-sm-12 col-md-6 col-lg-6">
+								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
-										class="image rounded-lg border border-light  w-100  mh-75 m-3"
+										className="image rounded-lg border border-light  w-100  mh-75 m-3"
 										src={Image5}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="2"
 									/>
 								</div>
-								<div class="col-sm-12 col-md-6 col-lg-6">
+								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
-										class="image rounded-lg border border-light w-100 mh-75 m-3"
+										className="image rounded-lg border border-light w-100 mh-75 m-3"
 										src={Image6}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="3"
 									/>
 								</div>
-								<div class="col-sm-12 col-md-6 col-lg-6">
+								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
-										class="image rounded-lg border border-light w-100 mh-75 m-3"
+										className="image rounded-lg border border-light w-100 mh-75 m-3"
 										src={Image7}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="4"
 									/>
 								</div>
-								<div class="col-sm-12 col-md-6 col-lg-6">
+								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
-										class="image rounded-lg border border-light w-100 mh-75 m-3"
+										className="image rounded-lg border border-light w-100 mh-75 m-3"
 										src={Image8}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="5"
 									/>
 								</div>
-								<div class="col-sm-12 col-md-6 col-lg-6">
+								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
-										class="image rounded-lg border border-light w-100 mh-75 m-3"
+										className="image rounded-lg border border-light w-100 mh-75 m-3"
 										src={Image9}
 										alt=""
 										data-target="#carouselExample"
@@ -183,9 +183,9 @@ function App() {
 									/>
 								</div>
 
-								<div class="col-sm-12 col-md-6 col-lg-6">
+								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
-										class="image rounded-lg border border-light mh-75 w-100 m-3"
+										className="image rounded-lg border border-light mh-75 w-100 m-3"
 										src={Image10}
 										alt=""
 										data-target="#carouselExample"
@@ -195,79 +195,79 @@ function App() {
 							</div>
 						</div>
 						<div
-							class="modal fade"
+							className="modal fade"
 							id="exampleModal"
 							tabindex="-1"
 							role="dialog"
 							aria-hidden="true"
 						>
 							<div
-								class="modal-dialog  modal-dialog-centered modal-xl"
+								className="modal-dialog  modal-dialog-centered modal-xl"
 								role="document"
 							>
-								<div class="modal-content">
-									<div class="modal-body">
+								<div className="modal-content">
+									<div className="modal-body">
 										<div
 											id="carouselExample"
-											class="carousel slide"
+											className="carousel slide"
 											data-ride="carousel"
 										>
-											<div class="carousel-inner">
-												<div class="carousel-item active">
-													<img class="d-block w-100" src={Image3} alt="" />
+											<div className="carousel-inner">
+												<div className="carousel-item active">
+													<img className="d-block w-100" src={Image3} alt="" />
 												</div>
-												<div class="carousel-item">
-													<img class="d-block w-100" src={Image4} alt="" />
+												<div className="carousel-item">
+													<img className="d-block w-100" src={Image4} alt="" />
 												</div>
-												<div class="carousel-item">
-													<img class="d-block w-100" src={Image5} alt="" />
+												<div className="carousel-item">
+													<img className="d-block w-100" src={Image5} alt="" />
 												</div>
-												<div class="carousel-item">
-													<img class="d-block w-100" src={Image6} alt="" />
+												<div className="carousel-item">
+													<img className="d-block w-100" src={Image6} alt="" />
 												</div>
-												<div class="carousel-item">
-													<img class="d-block w-100" src={Image7} alt="" />
+												<div className="carousel-item">
+													<img className="d-block w-100" src={Image7} alt="" />
 												</div>
-												<div class="carousel-item">
-													<img class="d-block w-100" src={Image8} alt="" />
+												<div className="carousel-item">
+													<img className="d-block w-100" src={Image8} alt="" />
 												</div>
-												<div class="carousel-item">
-													<img class="d-block w-100" src={Image9} alt="" />
+												<div className="carousel-item">
+													<img className="d-block w-100" src={Image9} alt="" />
 												</div>
-												<div class="carousel-item">
-													<img class="d-block w-100" src={Image10} alt="" />
+												<div className="carousel-item">
+													<img className="d-block w-100" src={Image10} alt="" />
 												</div>
 											</div>
 											<a
-												class="carousel-control-prev"
+												className="carousel-control-prev"
 												href="#carouselExample"
 												role="button"
 												data-slide="prev"
 											>
 												<span
-													class="carousel-control-prev-icon"
+													className="carousel-control-prev-icon"
 													aria-hidden="true"
 												></span>
-												<span class="sr-only">Previous</span>
+												<span className="sr-only">Previous</span>
 											</a>
 											<a
-												class="carousel-control-next"
+												className="carousel-control-next"
 												href="#carouselExample"
 												role="button"
 												data-slide="next"
 											>
 												<span
-													class="carousel-control-next-icon"
+													className="carousel-control-next-icon"
 													aria-hidden="true"
 												></span>
-												<span class="sr-only">Next</span>
+												<span className="sr-only">Next</span>
 											</a>
 										</div>
 
-										<div class="modal-footer">
+										<div className="modal-footer">
 											<button
 												type="button"
-												class="btn btn-secondary"
+												className="btn btn-secondary"
 												data-dismiss="modal"
 											>
 												Close
@@ -281,96 +281,118 @@ function App() {
 				</div>
 
 				<div id="registry">
-					<h1 class="brown-font">REGISTRY</h1>
-					<p class="brown-font">We have registries at the following stores:</p>
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-6 col-md-4 col-lg-3">
-								<a href="https://www.amazon.com/wedding" target="_blank">
+					<h1 className="brown-font">REGISTRY</h1>
+					<p className="brown-font">
+						We have registries at the following stores:
+					</p>
+					<div className="container">
+						<div className="row">
+							<div className="col-sm-6 col-md-4 col-lg-3">
+								<a
+									href="https://www.amazon.com/wedding"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<img
-										class="img-thumbnail  m-3"
+										className="img-thumbnail  m-3"
 										src={amazon}
 										alt="photo1"
 										style={{ width: 200, height: 200 }}
 									/>
 								</a>
 							</div>
-							<div class="col-sm-6 col-md-4 col-lg-3">
+							<div className="col-sm-6 col-md-4 col-lg-3">
 								<a
 									href="https://www.bedbathandbeyond.com/store/page/Registry/"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									<img
-										class="img-thumbnail  m-3"
+										className="img-thumbnail  m-3"
 										src={bbb}
 										alt="photo2"
 										style={{ width: 200, height: 200 }}
 									/>
 								</a>
 							</div>
-							<div class="col-sm-6 col-md-4 col-lg-3">
+							<div className="col-sm-6 col-md-4 col-lg-3">
 								<a
 									href="https://www.target.com/gift-registry/wedding-registry"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									<img
-										class="img-thumbnail  m-3"
+										className="img-thumbnail  m-3"
 										src={target}
 										alt="photo9"
 										style={{ width: 200, height: 200 }}
 									/>
 								</a>
 							</div>
-							<div class="col-sm-6 col-md-4 col-lg-3">
-								<a href="https://food52.com/shop/registry" target="_blank">
+							<div className="col-sm-6 col-md-4 col-lg-3">
+								<a
+									href="https://food52.com/shop/registry"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<img
-										class="img-thumbnail  m-3"
+										className="img-thumbnail  m-3"
 										src={food52}
 										alt="photo4"
 										style={{ width: 200, height: 200 }}
 									/>
 								</a>
 							</div>
-							<div class="col-sm-6 col-md-4 col-lg-3">
+							<div className="col-sm-6 col-md-4 col-lg-3">
 								<a
 									href="https://www.macys.com/registry/wedding/registrysearch"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									<img
-										class="img-thumbnail  m-3"
+										className="img-thumbnail  m-3"
 										src={macys}
 										alt="photo7"
 										style={{ width: 200, height: 200 }}
 									/>
 								</a>
 							</div>
-							<div class="col-sm-6 col-md-4 col-lg-3">
+							<div className="col-sm-6 col-md-4 col-lg-3">
 								<a
 									href="https://www.crateandbarrel.com/gift-registry/"
 									target="_blank"
+									rel="noopener noreferrer"
 								>
 									<img
-										class="img-thumbnail  m-3"
+										className="img-thumbnail  m-3"
 										src={crateandbarrel}
 										alt="photo3"
 										style={{ width: 200, height: 200 }}
 									/>
 								</a>
 							</div>
-							<div class="col-sm-6 col-md-4 col-lg-3">
-								<a href="https://www.wayfair.com/registry" target="_blank">
+							<div className="col-sm-6 col-md-4 col-lg-3">
+								<a
+									href="https://www.wayfair.com/registry"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<img
-										class="img-thumbnail  m-3"
+										className="img-thumbnail  m-3"
 										src={wayfair}
 										alt="photo12"
 										style={{ width: 200, height: 200 }}
 									/>
 								</a>
 							</div>
-							<div class="col-sm-6 col-md-4 col-lg-3">
-								<a href="https://www.zola.com/" target="_blank">
+							<div className="col-sm-6 col-md-4 col-lg-3">
+								<a
+									href="https://www.zola.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
 									<img
-										class="img-thumbnail  m-3"
+										className="img-thumbnail  m-3"
 										src={zola}
 										alt="photo13"
 										style={{ width: 200, height: 200 }}
@@ -381,6 +403,8 @@ function App() {
 					</div>
 				</div>
 			</section>
+
+			<Footer />
 		</div>
 	);
 }
