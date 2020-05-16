@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import $ from "jquery";
 import "./NavBar.scss";
 
@@ -45,7 +45,7 @@ function NavBar() {
 	// 	}
 	// });
 
-	// Applies the navBarChangeOnScroll class to the navbar, when the window.scrollTop is greater than 600
+	// Applies the navBarChangeOnScroll className to the navbar, when the window.scrollTop is greater than 600
 	// using JQuery, since this was the only a solution i Found, doing it with dom required using useEffect
 	// but could not get the scrollTop to work
 	$(document).ready(function () {
@@ -67,12 +67,12 @@ function NavBar() {
 	});
 
 	return (
-		<nav class="navbar fixed-top navbar-expand-lg navbar-light ">
-			<a class="navbar-brand" href="#intro">
+		<nav className="navbar fixed-top navbar-expand-lg navbar-light ">
+			<a className="navbar-brand" href="#intro">
 				Kate&Ben
 			</a>
 			<button
-				class="navbar-toggler"
+				className="navbar-toggler"
 				type="button"
 				data-toggle="collapse"
 				data-target="#navbarSupportedContent"
@@ -80,40 +80,40 @@ function NavBar() {
 				aria-expanded="false"
 				aria-label="Toggle navigation"
 			>
-				<span class="navbar-toggler-icon"></span>
+				<span className="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto ">
-					<li class="nav-item">
-						<a class="nav-link" href="#story">
-							OUR STORY <span class="sr-only"></span>
+			<div className="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul className="navbar-nav mr-auto ">
+					<li className="nav-item">
+						<a className="nav-link" href="#story">
+							OUR STORY <span className="sr-only"></span>
 						</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#ceremony">
-							CEREMONY <span class="sr-only"></span>
+					<li className="nav-item">
+						<a className="nav-link" href="#ceremony">
+							CEREMONY <span className="sr-only"></span>
 						</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#accomodations">
-							HOTEL <span class="sr-only"></span>
+					<li className="nav-item">
+						<a className="nav-link" href="#accomodations">
+							HOTEL <span className="sr-only"></span>
 						</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#photos">
-							PHOTOS <span class="sr-only"></span>
+					<li className="nav-item">
+						<a className="nav-link" href="#photos">
+							PHOTOS <span className="sr-only"></span>
 						</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#registry">
-							REGISTRY <span class="sr-only"></span>
+					<li className="nav-item">
+						<a className="nav-link" href="#registry">
+							REGISTRY <span className="sr-only"></span>
 						</a>
 					</li>
 				</ul>
 
 				<a
-					class="btn  RSVPButton"
+					className="btn  RSVPButton"
 					href="https://rsvpify.com/"
 					target="_blank"
 					rel="noopener noreferrer"
