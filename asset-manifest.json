@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/wedding_design_concept/static/css/main.820c4965.chunk.css",
-    "main.js": "/wedding_design_concept/static/js/main.8ec88223.chunk.js",
-    "main.js.map": "/wedding_design_concept/static/js/main.8ec88223.chunk.js.map",
+    "main.css": "/wedding_design_concept/static/css/main.a04be2d7.chunk.css",
+    "main.js": "/wedding_design_concept/static/js/main.945787e7.chunk.js",
+    "main.js.map": "/wedding_design_concept/static/js/main.945787e7.chunk.js.map",
     "runtime-main.js": "/wedding_design_concept/static/js/runtime-main.127a726d.js",
     "runtime-main.js.map": "/wedding_design_concept/static/js/runtime-main.127a726d.js.map",
     "static/js/2.ae3e0815.chunk.js": "/wedding_design_concept/static/js/2.ae3e0815.chunk.js",
     "static/js/2.ae3e0815.chunk.js.map": "/wedding_design_concept/static/js/2.ae3e0815.chunk.js.map",
     "index.html": "/wedding_design_concept/index.html",
-    "precache-manifest.c2c122793dcf7a91083889de8020c2f9.js": "/wedding_design_concept/precache-manifest.c2c122793dcf7a91083889de8020c2f9.js",
+    "precache-manifest.ba5b4a84d00c9fd1b1ec0e5b94c41edd.js": "/wedding_design_concept/precache-manifest.ba5b4a84d00c9fd1b1ec0e5b94c41edd.js",
     "service-worker.js": "/wedding_design_concept/service-worker.js",
-    "static/css/main.820c4965.chunk.css.map": "/wedding_design_concept/static/css/main.820c4965.chunk.css.map",
+    "static/css/main.a04be2d7.chunk.css.map": "/wedding_design_concept/static/css/main.a04be2d7.chunk.css.map",
     "static/js/2.ae3e0815.chunk.js.LICENSE.txt": "/wedding_design_concept/static/js/2.ae3e0815.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/wedding_design_concept/static/media/Image2.a6bc8141.jpg",
     "static/media/Image10.jpg": "/wedding_design_concept/static/media/Image10.d546741f.jpg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.127a726d.js",
     "static/js/2.ae3e0815.chunk.js",
-    "static/css/main.820c4965.chunk.css",
-    "static/js/main.8ec88223.chunk.js"
+    "static/css/main.a04be2d7.chunk.css",
+    "static/js/main.945787e7.chunk.js"
   ]
 }
