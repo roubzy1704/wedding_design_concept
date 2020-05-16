@@ -97,7 +97,7 @@ function NavBar() {
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#accomodations">
-							ACCOMODATIONS <span class="sr-only"></span>
+							HOTEL <span class="sr-only"></span>
 						</a>
 					</li>
 					<li class="nav-item">

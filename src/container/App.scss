@@ -1,5 +1,19 @@
 .App {
 	overflow-wrap: break-word;
+	text-align: center;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+::-webkit-scrollbar-thumb {
+	background: rgb(174, 197, 238);
+	background: linear-gradient(
+		350deg,
+		rgba(174, 197, 238, 1) 0%,
+		rgba(148, 208, 233, 1) 100%
+	);
+	border-radius: 6px;
 }
 
 header {
@@ -8,16 +22,12 @@ header {
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container */
 	height: 100vh;
-
 	background-color: #d3d7da; /* Used if the image is unavailable */
 }
 
 .introText {
 	position: absolute;
 	text-align: center;
-	// justify-content: center;
-	// align-items: center;
-	// margin: 0 auto;
 	left: 0;
 	right: 0;
 	bottom: 10%;
@@ -33,92 +43,44 @@ header {
 .introText h4 {
 	letter-spacing: 0.5px;
 }
-
-section {
-	//padding-bottom: 120px;
-	text-align: center;
-	// background: url("../images/Image2.jpg");
-	// background-image: linear-gradient(
-	// 	to bottom,
-	// 	transparent 0px,
-	// 	#dae1e7 50px,
-	// 	#dae1e7 calc(100% - 50px),
-	// 	transparent 0
-	// );
-	// margin: auto auto 50px auto;
-	//background-size: contain;
-	//background-position: top center; /* Center the image */
-	// margin-left: 400px;
-	// margin-right: 40px;
-	//top: 0;
-	//position: sticky;
-	//margin-bottom: 100px;
-	//z-index: 1;
+section h1 {
+	font-family: "Michroma", sans-serif;
+	font-size: xx-large;
 }
-
-#story {
-	background-color: #d3d7da; /* Used if the image is unavailable */
-}
-#ceremony {
-	background-color: lightblue;
-}
-
-// #accomdations {
-// 	background-color: lightgray;
-// }
-
 section h4,
-h3,
-h1 {
-	font-family: "Monda", sans-serif;
-	position: relative;
-	overflow-wrap: break-word;
+h3 {
+	font-family: "Varela Round", sans-serif;
 }
 
 p {
 	font-family: "Poppins", sans-serif;
 }
 
-#story {
+#ceremony,
+#photos {
+	background-color: lightblue;
+}
+
+#story,
+#accomodations {
 	background-color: whitesmoke;
 }
 
-// #ceremony {
-// 	background-image: url("../images/Image2.jpg");
-// 	background-size: cover;
-// 	background-position: center;
-// 	background-repeat: no-repeat;
-// }
-.blurredPhoto {
+#registry {
+	padding-top: 70px;
+	padding-bottom: 200px;
 	background-image: url("../images/Image2.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	//position: absolute;
-
-	// height: 100%;
-	// filter: blur(8px);
-	// -webkit-filter: blur(8px);
 }
-
-// #photos {
-// 	background-color: lightyellow;
-// }
-// #registry {
-// 	background-color: lightseagreen;
-// }
 
 #story,
 #ceremony,
 #accomodations,
-#registry,
 #photos {
 	padding-top: 80px;
 	padding-bottom: 50px;
-}
-
-#photos {
-	background-color: lightblue;
 }
 
 //media query for smaller screen size
@@ -139,23 +101,17 @@ p {
 
 .image:hover {
 	cursor: pointer;
-	// filter: blur(1px);
-	transform: scale(1.03, 1.03) rotate(0.5deg);
+	transform: scale(1.03, 1.03) rotate(0.1deg);
 }
 
-// @media only screen and (min-width: 992px) {
-// 	#story,
-// 	#ceremony,
-// 	#accomodations,
-// 	#registry {
-// 		padding-left: 300px;
-// 		padding-right: 300px;
-// 	}
-// }
+@media only screen and (max-width: 992px) {
+}
 
-@media only screen and (max-width: 610px) {
-	// #ceremony {
-	// 	background-position: calc(100% - 0px);
-	// 	background-repeat: no-repeat;
-	// }
+@media only screen and (max-width: 765px) {
+	#registry {
+		// background-image: url("../images/Image2.jpg");
+		background-size: cover;
+		background-position: 88% 100%;
+		background-repeat: no-repeat;
+	}
 }

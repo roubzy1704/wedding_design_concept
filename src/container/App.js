@@ -35,11 +35,11 @@ function App() {
 			<section>
 				<div id="story">
 					<div className="container">
-						<h1 style={{ paddingBottom: 10 }}>OUR STORY</h1>
+						<h1 style={{ paddingBottom: 10, fontWeight: "bold" }}>OUR STORY</h1>
 						<h4 style={{ paddingBottom: 20 }}>LOVE AT FIRST BREW</h4>
 						<div className="words">
 							<p>
-								Our love story began in Sydney, back in 2009. Harry was a
+								Our love story began in Sydney, back in 2015. Harry was a
 								frequent customer at Little Peach Cafe, where Sally served up
 								his morning cappuccino. Some flirtatious banter was exchanged
 								back and forth over the coffee machine for weeks
@@ -59,7 +59,9 @@ function App() {
 					<div className="container">
 						<div className="blurredPhoto"></div>
 						<div>
-							<h1 style={{ paddingBottom: 20 }}>CEREMONY</h1>
+							<h1 style={{ paddingBottom: 20, fontWeight: "bold" }}>
+								CEREMONY
+							</h1>
 							<div>
 								<p style={{ paddingBottom: 10 }}>
 									We're going to have a casual ceremony on the beach in South
@@ -84,9 +86,7 @@ function App() {
 				</div>
 				<div id="accomodations">
 					<div className="container">
-						<h2 style={{ fontWeight: "bold", paddingBottom: 20 }}>
-							ACCOMODATIONS
-						</h2>
+						<h1 style={{ fontWeight: "bold", paddingBottom: 20 }}>HOTEL</h1>
 
 						<p style={{ paddingBottom: 10 }}>
 							Blocks of rooms have been reserved at the Hilton Hill Hotel.
@@ -112,14 +112,14 @@ function App() {
 						<p style={{ paddingBottom: 10 }}>
 							Thanks to Julia Robbs for taking these beautiful photos!
 						</p>
-						<div className="container">
+						<div className="container ">
 							<div
-								className="row"
+								className="row "
 								id="gallery"
 								data-toggle="modal"
 								data-target="#exampleModal"
 							>
-								<div className="col-sm-12 col-md-6 col-lg-6">
+								<div className="col-sm-12 col-md-6 col-lg-6 justify-content-center">
 									<img
 										className="image rounded-lg border border-light w-100 mh-75 m-3"
 										src={Image3}
@@ -281,129 +281,128 @@ function App() {
 				</div>
 
 				<div id="registry">
-					<h1 className="brown-font">REGISTRY</h1>
-					<p className="brown-font">
-						We have registries at the following stores:
-					</p>
 					<div className="container">
-						<div className="row">
-							<div className="col-sm-6 col-md-4 col-lg-3">
-								<a
-									href="https://www.amazon.com/wedding"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<img
-										className="img-thumbnail  m-3"
-										src={amazon}
-										alt="photo1"
-										style={{ width: 200, height: 200 }}
-									/>
-								</a>
-							</div>
-							<div className="col-sm-6 col-md-4 col-lg-3">
-								<a
-									href="https://www.bedbathandbeyond.com/store/page/Registry/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<img
-										className="img-thumbnail  m-3"
-										src={bbb}
-										alt="photo2"
-										style={{ width: 200, height: 200 }}
-									/>
-								</a>
-							</div>
-							<div className="col-sm-6 col-md-4 col-lg-3">
-								<a
-									href="https://www.target.com/gift-registry/wedding-registry"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<img
-										className="img-thumbnail  m-3"
-										src={target}
-										alt="photo9"
-										style={{ width: 200, height: 200 }}
-									/>
-								</a>
-							</div>
-							<div className="col-sm-6 col-md-4 col-lg-3">
-								<a
-									href="https://food52.com/shop/registry"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<img
-										className="img-thumbnail  m-3"
-										src={food52}
-										alt="photo4"
-										style={{ width: 200, height: 200 }}
-									/>
-								</a>
-							</div>
-							<div className="col-sm-6 col-md-4 col-lg-3">
-								<a
-									href="https://www.macys.com/registry/wedding/registrysearch"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<img
-										className="img-thumbnail  m-3"
-										src={macys}
-										alt="photo7"
-										style={{ width: 200, height: 200 }}
-									/>
-								</a>
-							</div>
-							<div className="col-sm-6 col-md-4 col-lg-3">
-								<a
-									href="https://www.crateandbarrel.com/gift-registry/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<img
-										className="img-thumbnail  m-3"
-										src={crateandbarrel}
-										alt="photo3"
-										style={{ width: 200, height: 200 }}
-									/>
-								</a>
-							</div>
-							<div className="col-sm-6 col-md-4 col-lg-3">
-								<a
-									href="https://www.wayfair.com/registry"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<img
-										className="img-thumbnail  m-3"
-										src={wayfair}
-										alt="photo12"
-										style={{ width: 200, height: 200 }}
-									/>
-								</a>
-							</div>
-							<div className="col-sm-6 col-md-4 col-lg-3">
-								<a
-									href="https://www.zola.com/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<img
-										className="img-thumbnail  m-3"
-										src={zola}
-										alt="photo13"
-										style={{ width: 200, height: 200 }}
-									/>
-								</a>
+						<h1 style={{ fontWeight: "bold" }}>REGISTRY</h1>
+						<p>We have registries at the following stores:</p>
+						<div className="container">
+							<div className="row">
+								<div className="col-sm-6 col-md-4 col-lg-3">
+									<a
+										href="https://www.amazon.com/wedding"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											className=" m-3"
+											src={amazon}
+											alt="photo1"
+											style={{ width: 150, height: 150 }}
+										/>
+									</a>
+								</div>
+								<div className="col-sm-6 col-md-4 col-lg-3">
+									<a
+										href="https://www.bedbathandbeyond.com/store/page/Registry/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											className="  m-3"
+											src={bbb}
+											alt="photo2"
+											style={{ width: 150, height: 150 }}
+										/>
+									</a>
+								</div>
+								<div className="col-sm-6 col-md-4 col-lg-3">
+									<a
+										href="https://www.target.com/gift-registry/wedding-registry"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											className="  m-3"
+											src={target}
+											alt="photo9"
+											style={{ width: 150, height: 150 }}
+										/>
+									</a>
+								</div>
+								<div className="col-sm-6 col-md-4 col-lg-3">
+									<a
+										href="https://food52.com/shop/registry"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											className=" m-3"
+											src={food52}
+											alt="photo4"
+											style={{ width: 150, height: 150 }}
+										/>
+									</a>
+								</div>
+								<div className="col-sm-6 col-md-4 col-lg-3">
+									<a
+										href="https://www.macys.com/registry/wedding/registrysearch"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											className=" m-3"
+											src={macys}
+											alt="photo7"
+											style={{ width: 150, height: 150 }}
+										/>
+									</a>
+								</div>
+								<div className="col-sm-6 col-md-4 col-lg-3">
+									<a
+										href="https://www.crateandbarrel.com/gift-registry/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											className=" m-3"
+											src={crateandbarrel}
+											alt="photo3"
+											style={{ width: 150, height: 150 }}
+										/>
+									</a>
+								</div>
+								<div className="col-sm-6 col-md-4 col-lg-3">
+									<a
+										href="https://www.wayfair.com/registry"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											className=" m-3"
+											src={wayfair}
+											alt="photo12"
+											style={{ width: 150, height: 150 }}
+										/>
+									</a>
+								</div>
+								<div className="col-sm-6 col-md-4 col-lg-3">
+									<a
+										href="https://www.zola.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											className="m-3"
+											src={zola}
+											alt="photo13"
+											style={{ width: 150, height: 150 }}
+										/>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-
 			<Footer />
 		</div>
 	);
