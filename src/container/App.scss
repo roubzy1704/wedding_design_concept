@@ -54,6 +54,8 @@ h3 {
 
 p {
 	font-family: "Poppins", sans-serif;
+	padding: 0px 200px;
+	line-height: 1.6;
 }
 
 #ceremony,
@@ -68,11 +70,15 @@ p {
 
 #registry {
 	padding-top: 70px;
-	padding-bottom: 200px;
-	background-image: url("../images/Image2.jpg");
+	padding-bottom: 100px;
+	//background-image: url("../images/Image2.jpg");
+	background-color: whitesmoke;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+#registry a:hover {
+	opacity: 0.8;
 }
 
 #story,

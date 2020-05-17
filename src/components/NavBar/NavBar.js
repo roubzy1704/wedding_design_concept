@@ -50,7 +50,7 @@ function NavBar() {
 	// but could not get the scrollTop to work
 	$(document).ready(function () {
 		$(window).scroll(function () {
-			if ($(window).scrollTop() > 800) {
+			if ($(window).scrollTop() > 600) {
 				//using Jquery
 				$(".navbar").addClass("navBarChangeOnScroll");
 				//using DOM manipulation

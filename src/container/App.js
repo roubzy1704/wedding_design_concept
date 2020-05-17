@@ -2,6 +2,7 @@ import React from "react";
 import "./App.scss";
 import NavBar from "../components/NavBar/NavBar";
 import Footer from "../components/Footer/Footer";
+import Image2 from "../images/Image2.jpg";
 import Image3 from "../images/Image3.jpg";
 import Image4 from "../images/Image4.jpg";
 import Image5 from "../images/Image5.jpg";
@@ -9,7 +10,7 @@ import Image6 from "../images/Image6.jpg";
 import Image7 from "../images/Image7.jpg";
 import Image8 from "../images/Image8.jpg";
 import Image9 from "../images/Image9.jpg";
-import Image10 from "../images/Image10.jpg";
+
 import amazon from "../Logos/amazon-logo.png";
 import bbb from "../Logos/bedBathBeyond.png";
 import target from "../Logos/target.png";
@@ -122,7 +123,7 @@ function App() {
 								<div className="col-sm-12 col-md-6 col-lg-6 justify-content-center">
 									<img
 										className="image rounded-lg border border-light w-100 mh-75 m-3"
-										src={Image3}
+										src={Image2}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="0"
@@ -131,7 +132,7 @@ function App() {
 								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
 										className="image rounded-lg border border-light w-100 mh-75 m-3"
-										src={Image4}
+										src={Image3}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="1"
@@ -140,7 +141,7 @@ function App() {
 								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
 										className="image rounded-lg border border-light  w-100  mh-75 m-3"
-										src={Image5}
+										src={Image4}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="2"
@@ -149,7 +150,7 @@ function App() {
 								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
 										className="image rounded-lg border border-light w-100 mh-75 m-3"
-										src={Image6}
+										src={Image5}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="3"
@@ -158,7 +159,7 @@ function App() {
 								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
 										className="image rounded-lg border border-light w-100 mh-75 m-3"
-										src={Image7}
+										src={Image6}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="4"
@@ -167,7 +168,7 @@ function App() {
 								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
 										className="image rounded-lg border border-light w-100 mh-75 m-3"
-										src={Image8}
+										src={Image7}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="5"
@@ -176,7 +177,7 @@ function App() {
 								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
 										className="image rounded-lg border border-light w-100 mh-75 m-3"
-										src={Image9}
+										src={Image8}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="6"
@@ -186,7 +187,7 @@ function App() {
 								<div className="col-sm-12 col-md-6 col-lg-6">
 									<img
 										className="image rounded-lg border border-light mh-75 w-100 m-3"
-										src={Image10}
+										src={Image9}
 										alt=""
 										data-target="#carouselExample"
 										data-slide-to="7"
@@ -214,6 +215,9 @@ function App() {
 										>
 											<div className="carousel-inner">
 												<div className="carousel-item active">
+													<img className="d-block w-100" src={Image2} alt="" />
+												</div>
+												<div className="carousel-item">
 													<img className="d-block w-100" src={Image3} alt="" />
 												</div>
 												<div className="carousel-item">
@@ -233,9 +237,6 @@ function App() {
 												</div>
 												<div className="carousel-item">
 													<img className="d-block w-100" src={Image9} alt="" />
-												</div>
-												<div className="carousel-item">
-													<img className="d-block w-100" src={Image10} alt="" />
 												</div>
 											</div>
 											<a
@@ -293,7 +294,7 @@ function App() {
 										rel="noopener noreferrer"
 									>
 										<img
-											className=" m-3"
+											className="shadow-lg p-1 bg-white rounded m-3"
 											src={amazon}
 											alt="photo1"
 											style={{ width: 150, height: 150 }}
@@ -307,7 +308,7 @@ function App() {
 										rel="noopener noreferrer"
 									>
 										<img
-											className="  m-3"
+											className="shadow-lg p-3 bg-white  m-3"
 											src={bbb}
 											alt="photo2"
 											style={{ width: 150, height: 150 }}
@@ -321,7 +322,7 @@ function App() {
 										rel="noopener noreferrer"
 									>
 										<img
-											className="  m-3"
+											className="shadow-lg p-3 bg-white  m-3"
 											src={target}
 											alt="photo9"
 											style={{ width: 150, height: 150 }}
@@ -335,7 +336,7 @@ function App() {
 										rel="noopener noreferrer"
 									>
 										<img
-											className=" m-3"
+											className="shadow-lg p-2 bg-white m-3"
 											src={food52}
 											alt="photo4"
 											style={{ width: 150, height: 150 }}
@@ -349,7 +350,7 @@ function App() {
 										rel="noopener noreferrer"
 									>
 										<img
-											className=" m-3"
+											className="shadow-lg p-2 bg-white m-3"
 											src={macys}
 											alt="photo7"
 											style={{ width: 150, height: 150 }}
@@ -363,7 +364,7 @@ function App() {
 										rel="noopener noreferrer"
 									>
 										<img
-											className=" m-3"
+											className="shadow-lg p-2 bg-white m-3"
 											src={crateandbarrel}
 											alt="photo3"
 											style={{ width: 150, height: 150 }}
@@ -377,7 +378,7 @@ function App() {
 										rel="noopener noreferrer"
 									>
 										<img
-											className=" m-3"
+											className="shadow-lg p-2 bg-white m-3"
 											src={wayfair}
 											alt="photo12"
 											style={{ width: 150, height: 150 }}
@@ -391,7 +392,7 @@ function App() {
 										rel="noopener noreferrer"
 									>
 										<img
-											className="m-3"
+											className="shadow-lg p-3 bg-white m-3"
 											src={zola}
 											alt="photo13"
 											style={{ width: 150, height: 150 }}
