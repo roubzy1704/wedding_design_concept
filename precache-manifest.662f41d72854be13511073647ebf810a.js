@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51d911c5d5f22a582860a1f5e562fade",
+    "revision": "8b2c1cbd7283b9aec853a686037e9378",
     "url": "/wedding_design_concept/index.html"
   },
   {
-    "revision": "bd3389890cc1beca4d52",
-    "url": "/wedding_design_concept/static/css/main.88e585b2.chunk.css"
+    "revision": "88848c1c728c47a6bd47",
+    "url": "/wedding_design_concept/static/css/main.e08b29ac.chunk.css"
   },
   {
     "revision": "05c1d4034ec35be444df",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wedding_design_concept/static/js/2.ae3e0815.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd3389890cc1beca4d52",
+    "revision": "88848c1c728c47a6bd47",
     "url": "/wedding_design_concept/static/js/main.46ae9ae7.chunk.js"
   },
   {

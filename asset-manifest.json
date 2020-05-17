@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wedding_design_concept/static/css/main.88e585b2.chunk.css",
+    "main.css": "/wedding_design_concept/static/css/main.e08b29ac.chunk.css",
     "main.js": "/wedding_design_concept/static/js/main.46ae9ae7.chunk.js",
     "main.js.map": "/wedding_design_concept/static/js/main.46ae9ae7.chunk.js.map",
     "runtime-main.js": "/wedding_design_concept/static/js/runtime-main.127a726d.js",
@@ -8,9 +8,9 @@
     "static/js/2.ae3e0815.chunk.js": "/wedding_design_concept/static/js/2.ae3e0815.chunk.js",
     "static/js/2.ae3e0815.chunk.js.map": "/wedding_design_concept/static/js/2.ae3e0815.chunk.js.map",
     "index.html": "/wedding_design_concept/index.html",
-    "precache-manifest.37daa897b67af96176f206ce5e96136e.js": "/wedding_design_concept/precache-manifest.37daa897b67af96176f206ce5e96136e.js",
+    "precache-manifest.662f41d72854be13511073647ebf810a.js": "/wedding_design_concept/precache-manifest.662f41d72854be13511073647ebf810a.js",
     "service-worker.js": "/wedding_design_concept/service-worker.js",
-    "static/css/main.88e585b2.chunk.css.map": "/wedding_design_concept/static/css/main.88e585b2.chunk.css.map",
+    "static/css/main.e08b29ac.chunk.css.map": "/wedding_design_concept/static/css/main.e08b29ac.chunk.css.map",
     "static/js/2.ae3e0815.chunk.js.LICENSE.txt": "/wedding_design_concept/static/js/2.ae3e0815.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/wedding_design_concept/static/media/Image1.8657ce94.jpg",
     "static/media/Image2.jpg": "/wedding_design_concept/static/media/Image2.a6bc8141.jpg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.127a726d.js",
     "static/js/2.ae3e0815.chunk.js",
-    "static/css/main.88e585b2.chunk.css",
+    "static/css/main.e08b29ac.chunk.css",
     "static/js/main.46ae9ae7.chunk.js"
   ]
 }
