@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/wedding_design_concept/static/css/main.a04be2d7.chunk.css",
-    "main.js": "/wedding_design_concept/static/js/main.4b8acd75.chunk.js",
-    "main.js.map": "/wedding_design_concept/static/js/main.4b8acd75.chunk.js.map",
+    "main.css": "/wedding_design_concept/static/css/main.88e585b2.chunk.css",
+    "main.js": "/wedding_design_concept/static/js/main.46ae9ae7.chunk.js",
+    "main.js.map": "/wedding_design_concept/static/js/main.46ae9ae7.chunk.js.map",
     "runtime-main.js": "/wedding_design_concept/static/js/runtime-main.127a726d.js",
     "runtime-main.js.map": "/wedding_design_concept/static/js/runtime-main.127a726d.js.map",
     "static/js/2.ae3e0815.chunk.js": "/wedding_design_concept/static/js/2.ae3e0815.chunk.js",
     "static/js/2.ae3e0815.chunk.js.map": "/wedding_design_concept/static/js/2.ae3e0815.chunk.js.map",
     "index.html": "/wedding_design_concept/index.html",
-    "precache-manifest.10b872f26515e7cdb090e05efdf1d844.js": "/wedding_design_concept/precache-manifest.10b872f26515e7cdb090e05efdf1d844.js",
+    "precache-manifest.37daa897b67af96176f206ce5e96136e.js": "/wedding_design_concept/precache-manifest.37daa897b67af96176f206ce5e96136e.js",
     "service-worker.js": "/wedding_design_concept/service-worker.js",
-    "static/css/main.a04be2d7.chunk.css.map": "/wedding_design_concept/static/css/main.a04be2d7.chunk.css.map",
+    "static/css/main.88e585b2.chunk.css.map": "/wedding_design_concept/static/css/main.88e585b2.chunk.css.map",
     "static/js/2.ae3e0815.chunk.js.LICENSE.txt": "/wedding_design_concept/static/js/2.ae3e0815.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/wedding_design_concept/static/media/Image2.a6bc8141.jpg",
-    "static/media/Image10.jpg": "/wedding_design_concept/static/media/Image10.d546741f.jpg",
+    "static/media/App.scss": "/wedding_design_concept/static/media/Image1.8657ce94.jpg",
+    "static/media/Image2.jpg": "/wedding_design_concept/static/media/Image2.a6bc8141.jpg",
     "static/media/Image3.jpg": "/wedding_design_concept/static/media/Image3.2148f8bb.jpg",
     "static/media/Image4.jpg": "/wedding_design_concept/static/media/Image4.5276e5fd.jpg",
     "static/media/Image5.jpg": "/wedding_design_concept/static/media/Image5.3378e721.jpg",
@@ -21,18 +21,18 @@
     "static/media/Image7.jpg": "/wedding_design_concept/static/media/Image7.43224d73.jpg",
     "static/media/Image8.jpg": "/wedding_design_concept/static/media/Image8.7a2d0098.jpg",
     "static/media/Image9.jpg": "/wedding_design_concept/static/media/Image9.da58f447.jpg",
-    "static/media/amazon-logo.png": "/wedding_design_concept/static/media/amazon-logo.fa51399d.png",
+    "static/media/amazon-logo.png": "/wedding_design_concept/static/media/amazon-logo.42a7861b.png",
     "static/media/bedBathBeyond.png": "/wedding_design_concept/static/media/bedBathBeyond.f2345ca9.png",
     "static/media/crateandbarrel.png": "/wedding_design_concept/static/media/crateandbarrel.2f233edb.png",
     "static/media/food52.png": "/wedding_design_concept/static/media/food52.ad3f0d14.png",
-    "static/media/macys.png": "/wedding_design_concept/static/media/macys.d7f47d81.png",
-    "static/media/target.png": "/wedding_design_concept/static/media/target.53eb3c48.png",
+    "static/media/macys.png": "/wedding_design_concept/static/media/macys.2a0e8429.png",
+    "static/media/target.png": "/wedding_design_concept/static/media/target.8bcb57c6.png",
     "static/media/zola.png": "/wedding_design_concept/static/media/zola.d321857e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.127a726d.js",
     "static/js/2.ae3e0815.chunk.js",
-    "static/css/main.a04be2d7.chunk.css",
-    "static/js/main.4b8acd75.chunk.js"
+    "static/css/main.88e585b2.chunk.css",
+    "static/js/main.46ae9ae7.chunk.js"
   ]
 }
