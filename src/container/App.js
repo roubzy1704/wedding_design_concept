@@ -10,7 +10,6 @@ import Image6 from "../images/Image6.jpg";
 import Image7 from "../images/Image7.jpg";
 import Image8 from "../images/Image8.jpg";
 import Image9 from "../images/Image9.jpg";
-
 import amazon from "../Logos/amazon-logo.png";
 import bbb from "../Logos/bedBathBeyond.png";
 import target from "../Logos/target.png";

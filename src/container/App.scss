@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 .App {
 	overflow-wrap: break-word;
 	text-align: center;
@@ -111,13 +114,10 @@ p {
 }
 
 @media only screen and (max-width: 992px) {
+	p {
+		padding: 0px;
+	}
 }
 
 @media only screen and (max-width: 765px) {
-	#registry {
-		// background-image: url("../images/Image2.jpg");
-		background-size: cover;
-		background-position: 88% 100%;
-		background-repeat: no-repeat;
-	}
 }
